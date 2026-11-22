@@ -1,0 +1,102 @@
+2026-11-22 16:36:40,509 | INFO | ===== Empieza la simulación =====
+2026-11-22 16:36:40,511 | INFO | Se creó el cliente C1 (Ana Torres)
+2026-11-22 16:36:40,511 | INFO | Operación 1 bien: Registrar a Ana (datos buenos)
+2026-11-22 16:36:40,512 | ERROR | Operación 2 con error: Registrar a Luis con correo mal escrito (El correo no es válido: 'luis-correo.com')
+2026-11-22 16:36:40,512 | ERROR | Operación 3 con error: Registrar a Marta con teléfono corto (El teléfono debe tener 10 números: '123')
+2026-11-22 16:36:40,513 | ERROR | Operación 4 con error: Registrar a un cliente con números en el nombre (El nombre no puede llevar números)
+2026-11-22 16:36:40,513 | INFO | Se creó el cliente C5 (Pedro Gómez)
+2026-11-22 16:36:40,513 | INFO | Operación 5 bien: Registrar a Pedro (datos buenos)
+2026-11-22 16:36:40,514 | INFO | Se registró el servicio S1
+2026-11-22 16:36:40,515 | INFO | Operación 6 bien: Crear la sala Norte
+2026-11-22 16:36:40,515 | ERROR | Operación 7 con error: Crear una sala con capacidad negativa (La capacidad de la sala debe ser un número entero mayor que 0)
+2026-11-22 16:36:40,516 | INFO | Se registró el servicio S3
+2026-11-22 16:36:40,516 | INFO | Operación 8 bien: Crear el equipo Portátil
+2026-11-22 16:36:40,516 | ERROR | Operación 9 con error: Crear una asesoría con nivel que no existe (El nivel debe ser junior, senior o experto, no 'dios')
+2026-11-22 16:36:40,516 | INFO | Se registró el servicio S5
+2026-11-22 16:36:40,516 | INFO | Operación 10 bien: Crear la asesoría con nivel experto
+2026-11-22 16:36:40,517 | INFO | Se creó la reserva R1
+2026-11-22 16:36:40,517 | INFO | Operación 11 bien: Reservar la Sala Norte para Ana por 3 horas
+2026-11-22 16:36:40,517 | ERROR | Operación 12 con error: Reservar un equipo por 20 horas (pasa el máximo) (Las horas deben estar entre 1 y 12: 20)
+2026-11-22 16:36:40,518 | ERROR | Operación 13 con error: Reservar para un cliente que no existe (No existe un cliente con código C99)
+2026-11-22 16:36:40,519 | INFO | Reserva R1 confirmada
+2026-11-22 16:36:40,519 | INFO | Reserva R1 procesada, costo $96390.0
+2026-11-22 16:36:40,519 | INFO | Terminó el procesamiento de la reserva R1
+2026-11-22 16:36:40,519 | INFO | Operación 14 bien: Procesar R1 con IVA 19% y descuento 10%
+2026-11-22 16:36:40,519 | ERROR | No se pudo procesar la reserva R1: No se puede confirmar: la reserva está CONFIRMADA
+2026-11-22 16:36:40,519 | INFO | Terminó el procesamiento de la reserva R1
+2026-11-22 16:36:40,521 | ERROR | Operación 15 con error: Procesar R1 otra vez (ya estaba confirmada) (La reserva R1 no se pudo procesar)
+2026-11-22 16:36:40,522 | INFO | Se creó la reserva R4
+2026-11-22 16:36:40,522 | ERROR | No se pudo procesar la reserva R4: 'Portátil' no está disponible
+2026-11-22 16:36:40,522 | INFO | Terminó el procesamiento de la reserva R4
+2026-11-22 16:36:40,523 | ERROR | Operación 16 con error: Reservar y procesar el portátil que ya no está disponible (La reserva R4 no se pudo procesar)
+2026-11-22 16:36:40,524 | ERROR | Operación 17 con error: Costo de la asesoría por 2 horas con impuesto absurdo (150%) (El impuesto debe estar entre 0 y 1 (0.19 = 19%))
+2026-11-22 16:36:40,524 | INFO | Operación 18 bien: Costo de la asesoría por 2 horas con IVA 19%
+2026-11-22 16:36:40,525 | INFO | ===== Termina la simulación =====
+2026-11-22 16:36:51,863 | INFO | ===== Empieza la simulación =====
+2026-11-22 16:36:51,864 | INFO | Se creó el cliente C1 (Ana Torres)
+2026-11-22 16:36:51,864 | INFO | Operación 1 bien: Registrar a Ana (datos buenos)
+2026-11-22 16:36:51,864 | ERROR | Operación 2 con error: Registrar a Luis con correo mal escrito (El correo no es válido: 'luis-correo.com')
+2026-11-22 16:36:51,865 | ERROR | Operación 3 con error: Registrar a Marta con teléfono corto (El teléfono debe tener 10 números: '123')
+2026-11-22 16:36:51,865 | ERROR | Operación 4 con error: Registrar a un cliente con números en el nombre (El nombre no puede llevar números)
+2026-11-22 16:36:51,865 | INFO | Se creó el cliente C5 (Pedro Gómez)
+2026-11-22 16:36:51,866 | INFO | Operación 5 bien: Registrar a Pedro (datos buenos)
+2026-11-22 16:36:51,866 | INFO | Se registró el servicio S1
+2026-11-22 16:36:51,866 | INFO | Operación 6 bien: Crear la sala Norte
+2026-11-22 16:36:51,866 | ERROR | Operación 7 con error: Crear una sala con capacidad negativa (La capacidad de la sala debe ser un número entero mayor que 0)
+2026-11-22 16:36:51,867 | INFO | Se registró el servicio S3
+2026-11-22 16:36:51,867 | INFO | Operación 8 bien: Crear el equipo Portátil
+2026-11-22 16:36:51,867 | ERROR | Operación 9 con error: Crear una asesoría con nivel que no existe (El nivel debe ser junior, senior o experto, no 'dios')
+2026-11-22 16:36:51,867 | INFO | Se registró el servicio S5
+2026-11-22 16:36:51,867 | INFO | Operación 10 bien: Crear la asesoría con nivel experto
+2026-11-22 16:36:51,868 | INFO | Se creó la reserva R1
+2026-11-22 16:36:51,868 | INFO | Operación 11 bien: Reservar la Sala Norte para Ana por 3 horas
+2026-11-22 16:36:51,868 | ERROR | Operación 12 con error: Reservar un equipo por 20 horas (pasa el máximo) (Las horas deben estar entre 1 y 12: 20)
+2026-11-22 16:36:51,868 | ERROR | Operación 13 con error: Reservar para un cliente que no existe (No existe un cliente con código C99)
+2026-11-22 16:36:51,868 | INFO | Reserva R1 confirmada
+2026-11-22 16:36:51,868 | INFO | Reserva R1 procesada, costo $96390.0
+2026-11-22 16:36:51,868 | INFO | Terminó el procesamiento de la reserva R1
+2026-11-22 16:36:51,868 | INFO | Operación 14 bien: Procesar R1 con IVA 19% y descuento 10%
+2026-11-22 16:36:51,868 | ERROR | No se pudo procesar la reserva R1: No se puede confirmar: la reserva está CONFIRMADA
+2026-11-22 16:36:51,869 | INFO | Terminó el procesamiento de la reserva R1
+2026-11-22 16:36:51,869 | ERROR | Operación 15 con error: Procesar R1 otra vez (ya estaba confirmada) (La reserva R1 no se pudo procesar)
+2026-11-22 16:36:51,869 | INFO | Se creó la reserva R4
+2026-11-22 16:36:51,869 | ERROR | No se pudo procesar la reserva R4: 'Portátil' no está disponible
+2026-11-22 16:36:51,869 | INFO | Terminó el procesamiento de la reserva R4
+2026-11-22 16:36:51,869 | ERROR | Operación 16 con error: Reservar y procesar el portátil que ya no está disponible (La reserva R4 no se pudo procesar)
+2026-11-22 16:36:51,869 | ERROR | Operación 17 con error: Costo de la asesoría por 2 horas con impuesto absurdo (150%) (El impuesto debe estar entre 0 y 1 (0.19 = 19%))
+2026-11-22 16:36:51,870 | INFO | Operación 18 bien: Costo de la asesoría por 2 horas con IVA 19%
+2026-11-22 16:36:51,870 | INFO | ===== Termina la simulación =====
+2026-11-22 16:37:21,741 | INFO | ===== Empieza la simulación =====
+2026-11-22 16:37:21,741 | INFO | Se creó el cliente C1 (Ana Torres)
+2026-11-22 16:37:21,742 | INFO | Operación 1 bien: Registrar a Ana (datos buenos)
+2026-11-22 16:37:21,742 | ERROR | Operación 2 con error: Registrar a Luis con correo mal escrito (El correo no es válido: 'luis-correo.com')
+2026-11-22 16:37:21,742 | ERROR | Operación 3 con error: Registrar a Marta con teléfono corto (El teléfono debe tener 10 números: '123')
+2026-11-22 16:37:21,743 | ERROR | Operación 4 con error: Registrar a un cliente con números en el nombre (El nombre no puede llevar números)
+2026-11-22 16:37:21,743 | INFO | Se creó el cliente C5 (Pedro Gómez)
+2026-11-22 16:37:21,743 | INFO | Operación 5 bien: Registrar a Pedro (datos buenos)
+2026-11-22 16:37:21,743 | INFO | Se registró el servicio S1
+2026-11-22 16:37:21,744 | INFO | Operación 6 bien: Crear la sala Norte
+2026-11-22 16:37:21,744 | ERROR | Operación 7 con error: Crear una sala con capacidad negativa (La capacidad de la sala debe ser un número entero mayor que 0)
+2026-11-22 16:37:21,744 | INFO | Se registró el servicio S3
+2026-11-22 16:37:21,744 | INFO | Operación 8 bien: Crear el equipo Portátil
+2026-11-22 16:37:21,745 | ERROR | Operación 9 con error: Crear una asesoría con nivel que no existe (El nivel debe ser junior, senior o experto, no 'dios')
+2026-11-22 16:37:21,745 | INFO | Se registró el servicio S5
+2026-11-22 16:37:21,745 | INFO | Operación 10 bien: Crear la asesoría con nivel experto
+2026-11-22 16:37:21,746 | INFO | Se creó la reserva R1
+2026-11-22 16:37:21,746 | INFO | Operación 11 bien: Reservar la Sala Norte para Ana por 3 horas
+2026-11-22 16:37:21,746 | ERROR | Operación 12 con error: Reservar un equipo por 20 horas (pasa el máximo) (Las horas deben estar entre 1 y 12: 20)
+2026-11-22 16:37:21,746 | ERROR | Operación 13 con error: Reservar para un cliente que no existe (No existe un cliente con código C99)
+2026-11-22 16:37:21,746 | INFO | Reserva R1 confirmada
+2026-11-22 16:37:21,746 | INFO | Reserva R1 procesada, costo $96390.0
+2026-11-22 16:37:21,746 | INFO | Terminó el procesamiento de la reserva R1
+2026-11-22 16:37:21,746 | INFO | Operación 14 bien: Procesar R1 con IVA 19% y descuento 10%
+2026-11-22 16:37:21,747 | ERROR | No se pudo procesar la reserva R1: No se puede confirmar: la reserva está CONFIRMADA
+2026-11-22 16:37:21,747 | INFO | Terminó el procesamiento de la reserva R1
+2026-11-22 16:37:21,747 | ERROR | Operación 15 con error: Procesar R1 otra vez (ya estaba confirmada) (La reserva R1 no se pudo procesar)
+2026-11-22 16:37:21,747 | INFO | Se creó la reserva R4
+2026-11-22 16:37:21,747 | ERROR | No se pudo procesar la reserva R4: 'Portátil' no está disponible
+2026-11-22 16:37:21,747 | INFO | Terminó el procesamiento de la reserva R4
+2026-11-22 16:37:21,747 | ERROR | Operación 16 con error: Reservar y procesar el portátil que ya no está disponible (La reserva R4 no se pudo procesar)
+2026-11-22 16:37:21,748 | ERROR | Operación 17 con error: Costo de la asesoría por 2 horas con impuesto absurdo (150%) (El impuesto debe estar entre 0 y 1 (0.19 = 19%))
+2026-11-22 16:37:21,748 | INFO | Operación 18 bien: Costo de la asesoría por 2 horas con IVA 19%
+2026-11-22 16:37:21,748 | INFO | ===== Termina la simulación =====
